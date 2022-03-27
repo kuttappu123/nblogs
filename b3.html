@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nBlog</title>
+  
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profile.png" type="image/x-icon">
+
+<!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+  .img-sec{
+  background: url("./assets/images/cy10.jpg") no-repeat;
+  filter:brightness(0.8);
+   height:300px;
+   width:100vw;
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;}
+  </style>
+</head>
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/profile.png" alt="n Blog's logo" width="150" class="logo-light">
+          <img src="./assets/images/profile.png" alt="n Blog's logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="index.html" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#Contact" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+  
+  
+  <div class="img-sec"></div>
+  <div class="cont-sec">
+  <div class="container mt-5">
+     <p>Although there are many frameworks that can be used, the two most common frameworks for penetration testing are the Metasploit Framework and the Cobalt Strike Framework.
+	 The Cobalt Strike framework is a collection of other tools that work independently of the Metasploit Framework.
+     Once an organization’s systems have already been exploited by a Red Team, the penetration testers imitate what real threat actors can do once inside the security perimeters. 
+	 Pentest frameworks are designed to focus on threat actor tactics used within the post-exploit phases of control, execution, and maintenance.</p>
+	 
+	 <h6>Tactic Categories Included in a Pentest Framework:</h6>
+     <p><i class="fa fa-hand-o-right" aria-hidden="true"></i>Execution.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Persistence.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Privilege Escalation.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Defense Evasion.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Credential Access.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Discovery.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Lateral Movement.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Collection.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Exfiltration.<br>
+     <i class="fa fa-hand-o-right" aria-hidden="true"></i>Command and Control<br>
+	 </p>
+	 
+	 <h5>Metasploit Framework</h5>
+	 <p> The Metasploit Framework is a vulnerability assessment framework that provides a database containing vulnerabilities and exploits,
+	 a payload generator, and other useful modules. This framework is a prime environment for developing and executing exploitations.
+	 The tools within the framework are designed with the aim of allowing penetration testers to find and exploit vulnerabilities.
+     When you run a Metasploit Framework module on a target machine, it will try to identify any weaknesses in the system and, if found,
+	 allow you to exploit those weaknesses. The Metasploit Framework remains incredibly popular among penetration testers due to its effective design and customizable architecture.
+     When researchers encounter a new infection, they often find themselves looking at components that are part of the Metasploit Framework.
+	 This framework has been utilized since 2003 and is still going strong.
+	 
+	 <h5>Cobalt Strike Framework</h5>
+	 <p>Cobalt Strike is a collection of threat emulation tools provided by HelpSystems. Once you purchase a Cobalt Strike license, you are free to download and use the Cobalt Strike virtual machine (VM).
+	 A local VM runs on your own computer, while a remote VM requires an internet connection in order to connect to the cloud-based Cobalt Strike platform.
+     Cobalt Strike, and other pentesting frameworks like it, are designed to help cybersecurity professionals understand how certain actions might be taken by threat actors.
+     These tools within the framework simulate intrusions with utmost accuracy, to help give an organization the hard truths about its security posture.
+     The Cobalt Strike Framework is unique in that it provides an environment where attack tools can communicate directly with compromised hosts, giving attackers greater granularity than other toolsets in the marketplace. 
+	 This allows testers to execute detailed tests and provide better results for their clients.</p>
+	 
+	 <h6>Who Needs a Pentest?</h6>
+	 <p>Unfortunately, 49% of US companies have dealt with data breaches, and many of those companies thought they had effective cybersecurity solutions. 
+	 Penetration tests are strongly recommended for all organizations so that any weaknesses are found, and the extent of exploitation possible from those weaknesses is assessed.
+     However, there is no “one-size-fits-all” for pentests or their frameworks. Since there are six main types of pentests and more than one framework, an organization needs a consultation with cybersecurity professionals to determine which combinations work best for their organization.
+  
+  </div>
+  </div>
+  
+  
+  
+   <!--
+    - #FOOTER
+  -->
+
+  <footer id="Contact">
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/profile.png" alt="nBlog" width="60px" class="logo-light">
+          <img src="./assets/images/profile.png" alt="nBlog" width="60px" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about Web Cyber Security, Vulnerability Assessment, and Social engineering
+        </p>
+
+      </div>
+      <div class="wrapper">
+        <p class="footer-title">Contact</p>
+          <ul>
+            <li class="footer-text">
+              <i class="fa fa-envelope"></i>
+              naseefrpm121@gmail.com</li>
+            <li class="footer-text mt-2">
+              <i class="fa fa-phone"></i>
+              +91 6238169819</li>
+          </ul>
+      </div>
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#">nBlog</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

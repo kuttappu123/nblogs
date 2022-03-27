@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nBlog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profile.png" type="image/x-icon">
+
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+	<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/profile.png" alt="n Blog's logo" width="150" class="logo-light">
+          <img src="./assets/images/profile.png" alt="n Blog's logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#Contact" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#Contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b style="display:block">Mohammed Naseef</b>
+            Cyber Security analyst
+          </h1>
+
+          
+
+          <div class="btn-group">
+            <a href="#Contact" class="btn btn-primary">Contact Me</a>
+            <a href="#about" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/nsf2.png" alt="nBlog" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+<section id="about">
+  <div class="nes">
+     <div class="title h2">About Us</div>
+   <div class="about-container container">
+      <div class="img">
+	    <img src="./assets/images/blog-6.png">
+	  </div>
+	  <div class="content">
+            Specialized in Penetration Testing  and Vulnerability Assessment,Trained for 6 months at ehackify cyber security Consultancy
+       
+	  </div>
+   </div>
+   </div>
+</section>
+
+
+    <div class="main">
+
+      <div class="container" id="blog">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/cy.jpg" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Cybersecurity</button>
+
+                <h3>
+                  <a href="b1.html" class="h3">
+                    Social Media and Cybersecurity: What’s the Relationship Status?
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  It’s clear. Social media and cybersecurity have quite a relationship. 
+				  We often expose essential parts of our lives on the web,
+				  down to the tiniest details. As a result,
+				  we should know how social media and cybersecurity mingle.
+				  Previously, we’ve discussed the impact social media has had on cybersecurity
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/bl2.png" alt="n Blog" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Naseef</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-03-17">Mar 17, 2022</time>
+                      
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/cy4.jpg" alt="Fast web page loading on a $20 feature phone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Social engineering</button>
+
+                <h3><a href="b2.html" class="h3">How Technology is Changing the Future of Social Engineering</a></h3>
+
+                <p class="blog-text">
+                 Social engineering is not a new concept; in fact, 
+				 it was said to have originated in 1184 BC with the legendary tale of the Trojan Horse. But since the evolution of technology,
+				 we've come a long way from hiding in wooden horses…
+                 Even as far back as the 1960s, phone phreaks we're having fun as the originators of the first landline pranksters,
+				 hacking into the phone systems just for fun. Today, 
+				 modern-day social engineers take to the computer and the World Wide Web to launch large-scale cyberattacks on multi-million dollar enterprises and single individuals alike
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/bl2.png" alt="nBlog" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Naseef</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-1-10">Jan 10, 2022</time>
+                      
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/cy5.png" alt="nBlog" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Cybersecurity</button>
+
+                <h3><a href="b3.html" class="h3">What is a Pentest Framework?</a></h3>
+
+                <p class="blog-text">
+                 A pentest framework is a critical approach or way to structure a penetration test using a variety of tools,
+				 which can best serve the pentesters during the engagement.
+                 Although there are many frameworks that can be used, 
+				 the two most common frameworks for penetration testing are the Metasploit Framework and the Cobalt Strike Framework. 
+				 The Cobalt Strike framework is a collection of other tools that work independently of the Metasploit Framework.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/bl2.png" alt="nBlog" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Naseef</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-28">Dec 28, 2021</time>
+       
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/cy13.jpg" alt="Dynamically Securing Databases using Hashicorp Vault"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Vulnerability Assessment</button>
+
+                <h3><a href="b4.html" class="h3">What Is a Security Vulnerability Assessment?</a></h3>
+
+                <p class="blog-text">
+                  When it comes to online security, you want to find the issues before cyber criminals figure it out for you. Penetration tests, or pentests,
+				  are annual tests that use social engineering and other rigorous testing methods to find exploitable vulnerabilities in your systems.
+				  However, what about the months, or years, in between full-scale pentests?
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/bl2.png" alt="nBlog" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">naseef</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Nov 20, 2021</time>
+                     
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                 <i class="fa fa-lock" aria-hidden="true"></i>
+              </div>
+
+              <p>Cyber Security</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+               <i class="fa fa-shield"></i>
+              </div>
+
+              <p>Vulnerability Assessment</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <i class="fa fa-users"></i>
+                </div>
+              <p>Social engineering</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#hacking</button>
+              <button class="hashtag">#growthhacking</button>
+              <button class="hashtag">#learnhacking</button>
+              <button class="hashtag">#bodyhacking</button>
+              <button class="hashtag">#malware</button>
+              <button class="hashtag">#pentesting</button>
+              <button class="hashtag">#phising</button>
+              <button class="hashtag">#linux</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help your company overcome problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer id="Contact">
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/profile.png" alt="nBlog" width="60px" class="logo-light">
+          <img src="./assets/images/profile.png" alt="nBlog" width="60px" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about Web Cyber Security, Vulnerability Assessment, and Social engineering
+        </p>
+
+      </div>
+      <div class="wrapper">
+        <p class="footer-title">Contact</p>
+          <ul>
+            <li class="footer-text">
+              <i class="fa fa-envelope"></i>
+              naseefrpm121@gmail.com</li>
+            <li class="footer-text mt-2">
+              <i class="fa fa-phone"></i>
+              +91 6238169819</li>
+          </ul>
+      </div>
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#">nBlog</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nBlog</title>
+  
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profile.png" type="image/x-icon">
+
+
+   <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+  .img-sec{
+  background: url("./assets/images/cy11.jpg") no-repeat;
+  filter:brightness(0.8);
+   height:300px;
+   width:100vw;
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;}
+  </style>
+</head>
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/profile.png" alt="n Blog's logo" width="150" class="logo-light">
+          <img src="./assets/images/profile.png" alt="n Blog's logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="index.html" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#Contact" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+ 
+   <div class="img-sec"></div>
+   <div class="cont-sec">
+  <div class="container mt-5">
+ 
+     <h5>What Is a Security Vulnerability Assessment?</h5>
+	 <p>The short definition is that a cyber security vulnerability scan assesses your network for high-level security weaknesses.
+	 Then, a cyber security professional takes the results of these scans and weeds out the false positives, 
+	 investigating the results and offering recommendations for improving your defenses.
+	 That’s the difference between a vulnerability scan and an assessment: expert analysis behind the data.</p>
+	 <h5> Which Threats Do Vulnerability Evaluations Catch?</h5>
+	 <p>
+	 <i class="fa fa-hand-o-right" aria-hidden="true"></i>Code injection.<br>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>Faulty authentication mechanisms.<br>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>Insecure settings, like admin passwords.<br>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>Etc.<br>
+	  </p>
+	  
+	 <h5>Parts of a Vulnerability Assessment</h5>
+	 <p>The vulnerability evaluation consists of four steps: testing, analysis, assessment, and remediation.</p>
+	 <h6>1. Vulnerability Identification (Scanning)</h6>
+	 <p>The objective for this step is to draft a comprehensive list of an application’s vulnerabilities.
+	 Security analysts test the security health of applications, servers, or other systems by scanning them with automated tools and evaluating them manually.
+	 Assessors also rely on vulnerability databases, vendor vulnerability announcements,
+	 asset management systems, and threat intelligence feeds to identify further security weaknesses.</p>
+	 
+	 <h6>2. Vulnerability Analysis</h6>
+     <p> A vulnerability analysis aims to identify the source and root cause of the weaknesses identified in step one. The system components responsible,
+	 as well as the root cause, are identified. For example, the root cause of a vulnerability could be an old version of an open-source library.</p>
+
+     <h6>3. Risk Assessment</h6>
+     <p>The objective of this step is to prioritize vulnerabilities.
+	 Security analysts assign a rank or severity score to each weakness found through vulnerability scanning, based on such factors as:</p>
+	 <p>
+	 The affected systems.<br>
+     The data and business functions at risk.<br>
+     Ease of attack or compromise.<br>
+     The severity of the attack.<br>
+     Potential damage as a result of the vulnerability.<br>
+	 </p>
+     <h6>4. Remediation </h6>
+     <p>The objective of remediation is the closing of security gaps. 
+	 It’s typically a joint effort by cyber security staff, development,
+	 and operations teams who determine the most effective path for remediation or mitigation of each vulnerability.</p>
+	 
+	 <h5>Why Is Vulnerability Scanning So Important?</h5>
+  
+     <p>Routine automated scans help to continuously monitor for hidden vulnerabilities in between more robust pentests. 
+     Although many companies rely on Network Security Assessment Software (NSAS) to scan their system for security issues, 
+	 it’s not up-to-date, because more vulnerabilities are discovered every day. 
+     Software, no matter how “innovative,” isn’t designed to do the kind of persistent,
+	 up-to-date lateral thinking that is possible with a security expert behind the keys.
+	 And of course, software may not prioritize your security vulnerabilities in a way tailored to your needs.</p> 
+  
+  
+  </div>
+  </div>
+  
+  
+   <!--
+    - #FOOTER
+  -->
+
+  <footer id="Contact">
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/profile.png" alt="nBlog" width="60px" class="logo-light">
+          <img src="./assets/images/profile.png" alt="nBlog" width="60px" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about Web Cyber Security, Vulnerability Assessment, and Social engineering
+        </p>
+
+      </div>
+      <div class="wrapper">
+        <p class="footer-title">Contact</p>
+          <ul>
+            <li class="footer-text">
+              <i class="fa fa-envelope"></i>
+              naseefrpm121@gmail.com</li>
+            <li class="footer-text mt-2">
+              <i class="fa fa-phone"></i>
+              +91 6238169819</li>
+          </ul>
+      </div>
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#">nBlog</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
